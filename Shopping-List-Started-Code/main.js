@@ -38,17 +38,8 @@ $(document).ready(function(){
     };
 
 
-    $('.shoppingList1').dblclick(function(e){
-      $('.shoppingList1').fadeOut(2000);
-    });
-    $('.shoppingList2').dblclick(function(e){
-      $('.shoppingList2').fadeOut(2000);
-    });
-    $('.shoppingList3').dblclick(function(e){
-      $('.shoppingList3').fadeOut(2000);
-    });
-    $('.shoppingList4').dblclick(function(e){
-      $('.shoppingList4').fadeOut(2000);
+    $('.list-item').dblclick(function(e){
+      $(this).fadeOut(1000);
     });
   });
 })
